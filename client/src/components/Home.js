@@ -5,9 +5,11 @@ const Home = () => {
     <div>
       <div>
         Home
-        Create Group
-        Add Expense
-        
+        <br />
+        <Link to="/createGroup">Create Group</Link>
+        <br />
+        <Link to="/addExpense">Add Expense</Link>
+        <br />
         <button><Link to="/login">Login</Link></button>
         </div>
     </div>
